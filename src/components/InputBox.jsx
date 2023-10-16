@@ -2,6 +2,13 @@ import React from 'react'
 
 function InputBox({
     label,
+    amount,
+    onAmountChange,
+    onCurrencyChange,
+    currencyOption = [],
+    selectCurrency = "usd",
+    amountDisable = false,
+    currencyDisable = false,
     
     className = "",
 }) {
@@ -11,7 +18,7 @@ function InputBox({
         <div className={`bg-white p-3 rounded-lg text-sm flex `}>
             <div className="w-1/2">
                 <label  className="text-black/40 mb-2 inline-block">
-                    label
+                    {label}
                 </label>
                 <input
                     
