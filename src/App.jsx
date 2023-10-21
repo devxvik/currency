@@ -60,12 +60,12 @@ function App() {
                     </div>
                     <div className="w-full mt-1 mb-4">
                         <InputBox
-                             label="to"
-                             amount={convertedAmount}
-                             currencyOption={options}
-                             onCurrencyChange={(currecy)=> setTo(currecy)}
-                             selectCurrency={from}
-                             amountDisable
+                            //  label="to"
+                            //  amount={convertedAmount}
+                            //  currencyOption={options}
+                            //  onCurrencyChange={(currecy)=> setTo(currecy)}
+                            //  selectCurrency={from}
+                            //  amountDisable
                             
                         />
                     </div>
